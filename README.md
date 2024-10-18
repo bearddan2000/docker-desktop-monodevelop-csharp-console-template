@@ -1,11 +1,9 @@
-# docker-desktop-fedora-monodevelop-ide
+# docker-desktop-monodevelop-csharp-console-template
 
 ## Description
 This is a POC project to demonstrate monodevelop a integrated development environment.
 
 This is a barebones installation no pluggins where added.
-
-In order to be able to get files out of the container one must add a *volume* to the docker run command.
 
 ie.
 without a volume
@@ -19,7 +17,7 @@ Supports X11 display forwarding from docker container.
 - monodevelop
 
 ## Docker stack
-- fedora
+- ubuntu:20.04
 
 ## To run
 `sudo ./install.sh -u`
